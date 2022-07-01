@@ -1,0 +1,132 @@
+body {
+    font-family: Arial;
+  }
+table {
+    border-collapse: collapse;
+    border: 1px solid #DDDDDD;
+    min-width: 55vw;
+    max-width: 90vw;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+ }
+
+ th, td {
+	border-bottom: 1px solid #DDDDDD;
+	padding: 8px;
+ }
+
+ thead {
+    color: #999999;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+ }
+
+ td {
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    width: 7%;
+ }
+
+ tbody .borda-diferenciada {
+  border-bottom: 2px solid #cccccc;
+}
+
+ .times {
+    color: #666666;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    width: 20%;
+ }
+
+.coluna {
+    background-color: #F7F7F7;
+ }
+
+ .pontos {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #F7F7F7;
+ }
+
+  .libertadores {
+    color: #003366;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 5%;
+  }
+
+  .prelibertadores {
+    color: #1398BE;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 5%;
+  }
+
+  .sulamericana {
+    color: #DE9800;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 5%;
+  }
+
+  .nada {
+    color: #CCCCCC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 5%;
+  }
+
+  .rebaixado {
+    color: #C91B04;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 5%;
+  }
+
+  tfoot i {
+    padding-right: 0.2rem;
+  }
+  
+  tfoot i.azul-marinho {
+    color: #003366;
+  }
+  
+  tfoot i.azul-celeste {
+    color: #1398BE;
+  }
+  
+  tfoot i.laranja {
+    color: #DE9800;
+  }
+  
+  tfoot i.vermelho {
+    color: #C91B04;
+  }
+  
+  tfoot td {
+    border: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .legenda {
+    font-size: 10px;
+    color: #8f8f8f;
+    text-align: left;
+  }
+  
+  .siglas {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+  }
